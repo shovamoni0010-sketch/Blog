@@ -14,7 +14,7 @@ const Four = () => {
         >
           <button
             type="submit"
-            className="px-5 py-2 border border-gray-400 rounded-sm bg-green-500 text-black text-base cursor-pointer hover:bg-green-600 transition"
+            className="px-5 py-2 border border-gray-400 rounded-sm bg-green-800 text-white text-base cursor-pointer hover:bg-green-900 transition"
           >
             Go Home
           </button>

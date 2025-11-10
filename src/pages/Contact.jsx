@@ -34,7 +34,7 @@ const Contact = () => {
                       (880) 18845612312
                     </p>
                   </div>
-                  <div className="bg-green-500 p-2 rounded-full border border-gray-400 flex items-center justify-center cursor-pointer">
+                  <div className="bg-green-800 p-2 rounded-full border border-gray-400 flex items-center justify-center cursor-pointer">
                     <img
                       src="/public/arrow.svg"
                       alt="arrow"
@@ -59,7 +59,7 @@ const Contact = () => {
                       Ahmed.Borsha@hotmail.com
                     </p>
                   </div>
-                  <div className="bg-green-500 p-2 rounded-full border border-gray-400 flex items-center justify-center cursor-pointer ">
+                  <div className="bg-green-800 p-2 rounded-full border border-gray-400 flex items-center justify-center cursor-pointer ">
                     <img
                       src="/public/arrow.svg"
                       alt="arrow"
@@ -84,7 +84,7 @@ const Contact = () => {
                       6500 Naogaon Sadar, Naogaon
                     </p>
                   </div>
-                  <div className="bg-green-500 p-2 rounded-full border border-gray-400 flex items-center justify-center cursor-pointer">
+                  <div className="bg-green-800 p-2 rounded-full border border-gray-400 flex items-center justify-center cursor-pointer">
                     <img
                       src="/public/arrow.svg"
                       alt="arrow"
@@ -130,7 +130,7 @@ const Contact = () => {
                 ></textarea>
                 <button
                   type="submit"
-                  className="bg-green-500 border border-gray-400 p-3 text-[16px] font-medium text-black hover:bg-green-600 transition rounded-md cursor-pointer"
+                  className="bg-green-800 border border-gray-400 p-3 text-[16px] font-medium text-white hover:bg-green-900 transition rounded-md cursor-pointer"
                 >
                   Send message
                 </button>
@@ -144,5 +144,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-

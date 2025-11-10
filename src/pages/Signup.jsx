@@ -64,8 +64,8 @@ const Signup = () => {
 
           <button
             type="submit"
-            className="mt-2 py-2 border border-gray-300 bg-green-500 text-gray-900 font-medium rounded-md
-             hover:bg-green-600 transition-300 cursor-pointer"
+            className="mt-2 py-2 border border-gray-300 bg-green-800 text-white font-medium rounded-md
+             hover:bg-green-900 transition-300 cursor-pointer"
           >
             {' '}
             Sign Up{' '}
