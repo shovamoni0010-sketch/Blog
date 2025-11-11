@@ -5,6 +5,8 @@ import Login from './pages/Login.jsx';
 import Four from './pages/Four.jsx';
 import Contact from './pages/Contact.jsx';
 import Signup from './pages/Signup.jsx';
+import Search from './component/Search.jsx';
+import Blog from './pages/Blog.jsx';
 
 const App = () => {
   return (
@@ -14,7 +16,7 @@ const App = () => {
       <Login />
       <Contact />
       <Four />
-
+      <Blog/>
 
     </div>
   );

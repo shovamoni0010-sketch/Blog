@@ -36,7 +36,7 @@ const Contact = () => {
                   </div>
                   <div className="bg-green-800 p-2 rounded-full border border-gray-400 flex items-center justify-center cursor-pointer">
                     <img
-                      src="/public/arrow.svg"
+                      src="/public/icon.svg"
                       alt="arrow"
                       className="w-4 h-4 object-cover"
                     />
@@ -61,7 +61,7 @@ const Contact = () => {
                   </div>
                   <div className="bg-green-800 p-2 rounded-full border border-gray-400 flex items-center justify-center cursor-pointer ">
                     <img
-                      src="/public/arrow.svg"
+                      src="/public/icon.svg"
                       alt="arrow"
                       className="w-4 h-4 object-cover"
                     />
@@ -86,7 +86,7 @@ const Contact = () => {
                   </div>
                   <div className="bg-green-800 p-2 rounded-full border border-gray-400 flex items-center justify-center cursor-pointer">
                     <img
-                      src="/public/arrow.svg"
+                      src="/public/icon.svg"
                       alt="arrow"
                       className="w-4 h-4 object-cover"
                     />
