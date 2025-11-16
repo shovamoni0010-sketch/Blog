@@ -418,15 +418,26 @@ const Blog = () => {
         </div>
 
         {/* Pagination */}
-        {/* <div className="flex flex-col sm:flex-row sm:justify-between items-center">
-        <span>Total Products: {filteredData.length}</span>
-        <Pagination
-          totalBlog={filteredData.length}
-          postperpage={postperpage}
-          setCurrentPage={setCurrentPage}
-          currentPage={currentPage}
-        />
-       </div> */}
+
+        <div className="flex justify-center items-center gap-4 mb-10">
+          <button
+            onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+            className="px-4 py-2 border rounded">Prev</button>
+
+          <span>
+             {currentPage} of {Math.ceil(filteredData.length / postperpage)}
+          </span>
+
+          <button
+            onClick={() =>
+              setCurrentPage(prev =>
+                prev < Math.ceil(filteredData.length / postperpage)
+                  ? prev + 1
+                  : prev
+              )
+            }
+            className="px-4 py-2 border rounded">Next</button>
+        </div>
       </div>
     </main>
   );
