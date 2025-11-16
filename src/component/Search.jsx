@@ -25,7 +25,7 @@ const Search = props => {
       value={search}
       onChange={searchFunction}
       placeholder="Search..."
-      className="border p-2 rounded w-full max-w-[360px]"
+      className="border p-2 sm:p-3 rounded w-full max-w-[260px] sm:max-w-[260px]  md:max-w-[340px] lg:max-w-[400px] text-sm sm:text-base"
     />
   );
 };
