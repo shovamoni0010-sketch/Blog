@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Search from '../component/Search';
 import BlogCard from '../component/Blogcard';
+import { data } from '../data/blogData';
 
 
 const Blog = () => {

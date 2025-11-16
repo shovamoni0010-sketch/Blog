@@ -64,9 +64,7 @@ const BlogDetails = () => {
               <Link
                 to={`/blog/${item.id}`}
                 className="text-green-700 font-medium mt-2 inline-block"
-              >
-                Read More →
-              </Link>
+              >Read More → </Link>
             </div>
           ))}
         </div>
